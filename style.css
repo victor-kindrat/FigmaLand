@@ -1,0 +1,536 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-page {
+    width: 100%;
+    background-image: url(./files/first/Rectangle%209.png);
+    background-size: cover;
+    background-position: center
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px 0 10vw;
+}
+
+.nav .nav__ul {
+    width: 437px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .nav__ul li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Graphik-Regular";
+    src: url("./files/Graphik-Regular.ttf");
+}
+
+.nav .nav__ul .nav__item {
+    font-family: Graphik-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.social-media {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -130px;
+}
+
+.home-section__headline {
+    font-family: Graphik-Regular;
+    font-weight: 900;
+    font-size: 74px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.home-section__describe {
+    font-family: Graphik-Regular;
+    font-size: calc(20px + .1vw);
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.home-section__btn {
+    font-family: Graphik-Regular;
+    font-size: calc(14px + .1vw);
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 62px;
+    background: #2091F9;
+    border-radius: 35px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.features__h2 {
+    font-family: Graphik-Regular;
+    font-size: calc(40px + .1vw);
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 20px;
+}
+
+.features__description {
+    font-family: Graphik-Regular;
+    font-size: calc(20px + .1vw);
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    padding-bottom: 50px;
+}
+
+.features-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 869px;
+}
+
+.features-blocks-item {
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features-blocks-item__name {
+    font-family: Graphik-Regular;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    padding: 0 20px;
+}
+
+.features-blocks-item__description {
+    font-family: Graphik;
+    font-size: 18px;
+    line-height: calc(18px + 1vw);
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    padding: 0 10px;
+}
+
+.video {
+    height: 658px;
+    width: 1100px;
+    background-image: url(./files/second/screen.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.play {
+    cursor: pointer;
+}
+
+.features2 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px;
+}
+
+.features2-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features2-container-img {
+    width: 50%;
+}
+
+.features2-container-text {
+    height: 357px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.features2-container-text__h2 {
+    font-family: Graphik-Regular;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.features2-container-text__p {
+    font-family: Graphik-Regular;
+    font-size: calc (23px + .1vw);
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+
+.features2_reversed {
+    flex-direction: row-reverse;
+}
+
+.features2-container-text__h3 {
+    font-family: "Graphik-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.features2-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features2__btn {
+    font-family: Graphik-Regular;
+    font-size: calc(14px + .1vw);
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #2091F9;
+    border-radius: 35px;
+    padding: 19px 38px;
+}
+
+.features2__input {
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+    padding: 19px 39px;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #18171D;
+    outline: none;
+}
+
+.features2_reversed .features2-container-text {
+    width: 40%;
+}
+
+.features2_reversed .features2-container-img {
+    width: 60%;
+}
+
+.partners {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners-blocks {
+    display: flex;
+    margin-top: 50px;
+}
+
+.partners-blocks:nth-child(2n) {
+    margin-top: 0;
+}
+
+.partner {
+    border: 1px solid #D8D8D8;
+    padding: 31px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partner p {
+    font-family: Graphik-Regular;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: #374754;
+}
+
+.partners-h2 {
+    font-family: Graphik-Regular;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.partners-describe {
+    font-family: Graphik-Regular;
+    font-size: calc(20px + .1vw);
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+
+.partners .home-section__btn {
+    margin-top: 80px;
+}
+
+.testimonials {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.in-testimonials {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.testimonials__h2 {
+    font-family: Graphik-Regular;
+    font-size: calc(40px + .1vw);
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.testimonials__par {
+    font-family: Graphik-Regular;
+    font-size: calc(20px + .3vw);
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+
+.tag {
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description {
+    font-family: Graphik-Regular;
+    font-size: calc(10px + .4vw);
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.price {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+    background: #252B42;
+}
+
+.price__heading {
+    font-family: Graphik-Regular;
+    font-size: cacl(40px + .1vw);
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.price__description {
+    margin-bottom: 80px;
+    padding: 10px;
+    font-family: Graphik-Regular;
+    font-size: calc(20px + .1vw);
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.priceing_container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.priceing {
+    background-color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    width: 30%;
+    height: 607px;
+}
+
+.priceing__cost {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceing__features li {
+    list-style: none;
+}
+
+.priceing__features {
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.priceing__plan {
+    padding: 3px 0px;
+    font-family: Graphik-Regular;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.priceing__description {
+    font-family: Graphik-Regular;
+    font-size: calc(11px + .2vw);
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #374754;
+}
+
+.priceing__number {
+    padding: 10px 0px;
+    font-family: Graphik-Regular;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.priceing__valute {
+    font-family: Graphik-Regular;
+    font-size: calc(13px + .3vw);
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.priceing__duration {
+    font-family: Graphik-Regular;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: #374754;
+}
+
+.priceing__features li {
+    padding: 10px;
+    font-family: Graphik-Regular;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.priceing_active {
+    margin: 0 50px;
+    height: 693px;
+    background: #2091F9;
+}
+
+.priceing_active p,
+.priceing_active li,
+.priceing_active h4,
+.priceing_active span {
+    color: #fff;
+}
+
+.priceing_active .home-section__btn {
+    background-color: #fff;
+    color: #2091F9;
+}
