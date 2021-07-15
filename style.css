@@ -49,6 +49,11 @@
     margin-right: 40px;
 }
 
+.header__logo {
+    position: relative;
+    top: -7px;
+}
+
 .social-media {
     width: 170px;
     display: flex;
