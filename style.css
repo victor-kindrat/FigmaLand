@@ -8,7 +8,7 @@
     width: 100%;
     background-image: url(./files/first/Rectangle%209.png);
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 
 .header {
@@ -46,7 +46,11 @@
     letter-spacing: 0.2px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 40px;
+    margin-right: calc(5px + 2vw);
+}
+
+.nav .nav__ul .nav__item .nav__item_last {
+    margin-right: 1vw;
 }
 
 .header__logo {
@@ -125,7 +129,7 @@
 
 .features__description {
     font-family: Graphik-Regular;
-    font-size: calc(20px + .1vw);
+    font-size: calc(20px+.1vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -141,7 +145,7 @@
 }
 
 .features-blocks-item {
-    height: 257px;
+    min-height: 257px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,9 +165,9 @@
 }
 
 .features-blocks-item__description {
-    font-family: Graphik;
+    font-family: Graphik-Regular;
     font-size: 18px;
-    line-height: calc(18px + 1vw);
+    line-height: calc(18px+1vw);
     text-align: center;
     letter-spacing: 0.2px;
     color: #374754;
@@ -205,7 +209,7 @@
 }
 
 .features2-container-text {
-    height: 357px;
+    min-height: 357px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -254,7 +258,7 @@
 
 .features2__btn {
     font-family: Graphik-Regular;
-    font-size: calc(14px + .1vw);
+    font-size: calc(14px+.1vw);
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -292,7 +296,7 @@
 }
 
 .partners {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -336,7 +340,7 @@
 
 .partners-describe {
     font-family: Graphik-Regular;
-    font-size: calc(20px + .1vw);
+    font-size: calc(20px+.1vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -367,7 +371,7 @@
 
 .testimonials__h2 {
     font-family: Graphik-Regular;
-    font-size: calc(40px + .1vw);
+    font-size: calc(40px+.1vw);
     line-height: 55px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -376,7 +380,7 @@
 
 .testimonials__par {
     font-family: Graphik-Regular;
-    font-size: calc(20px + .3vw);
+    font-size: calc(20px+.3vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -392,7 +396,7 @@
 
 .description {
     font-family: Graphik-Regular;
-    font-size: calc(10px + .4vw);
+    font-size: calc(10px+.4vw);
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #252B42;
@@ -410,7 +414,7 @@
 
 .price__heading {
     font-family: Graphik-Regular;
-    font-size: cacl(40px + .1vw);
+    font-size: cacl(40px+.1vw);
     line-height: 55px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -422,7 +426,7 @@
     margin-bottom: 80px;
     padding: 10px;
     font-family: Graphik-Regular;
-    font-size: calc(20px + .1vw);
+    font-size: calc(20px+.1vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -481,7 +485,7 @@
 
 .priceing__description {
     font-family: Graphik-Regular;
-    font-size: calc(11px + .2vw);
+    font-size: calc(11px+.2vw);
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.1px;
@@ -499,7 +503,7 @@
 
 .priceing__valute {
     font-family: Graphik-Regular;
-    font-size: calc(13px + .3vw);
+    font-size: calc(13px+.3vw);
     line-height: 28px;
     letter-spacing: 0.1px;
     color: #252B42;
@@ -538,4 +542,390 @@
 .priceing_active .home-section__btn {
     background-color: #fff;
     color: #2091F9;
+}
+
+.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__heading {
+    font-family: Graphik-Regular;
+    font-size: calc(40px+.3vw);
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.contact__description {
+    font-family: Graphik-Regular;
+    font-size: calc(17px+.3vw);
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+
+.conatct__container {
+    display: flex;
+    align-items: center;
+}
+
+.contact__left {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    width: 40%;
+    height: 669px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 52px 50px;
+}
+
+.conatct__right {
+    height: 669px;
+    padding: 28px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.conatct__form {
+    font-family: Graphik-Regular;
+    font-size: calc(14px+.4vw);
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    display: flex;
+    flex-direction: column;
+}
+
+.conatct__input {
+    margin-top: 50px;
+    padding: 19px 20px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+}
+
+.conatct__input_large {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 23px 20px;
+    height: 193px;
+    border-radius: 50px;
+    border-radius: 0px;
+}
+
+.contact__left .home-section__btn {
+    margin-top: 40px;
+}
+
+.places {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.place__text {
+    padding: 10px;
+    font-family: Graphik-Regular;
+    font-size: calc(10px+.3vw);
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #374754;
+}
+
+.conatct__map {
+    margin: 50px 0;
+}
+
+.social-medias {
+    padding: 10px;
+    min-width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-medias a:nth-child(2n) {
+    margin: 0 24px;
+}
+
+.conatct__container {
+    margin: 50px 0 100px 0;
+}
+
+.footer {
+    min-height: 100vh;
+    padding: 150px 0;
+    background: #252B42;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.authors {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.authors ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__conatiner {
+    min-width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author__list li {
+    list-style: none;
+}
+
+.author__link {
+    text-decoration: none;
+    font-family: Graphik-Regular;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.author-list-heading {
+    padding: 10px 0;
+    font-family: Graphik-Regular;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.authors__item {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.author__list {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__contacts {
+    align-self: flex-start;
+}
+
+.contact-item {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.footer__social-medias {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer__link:nth-child(1) {
+    position: relative;
+    top: 6px;
+}
+
+.contact-item__description {
+    font-family: Roboto;
+    font-size: calc(10px+.1vw);
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+    .header {
+        padding: 0 20px 0 5vw;
+    }
+
+    .features2 {
+        padding: 0 50px;
+    }
+
+    .header__logo {
+        left: -30px;
+    }
+
+    .partner {
+        padding: 11px 10px;
+    }
+
+    .partner img {
+        width: 150px
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    .priceing {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav__item {
+        display: none;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        position: absolute;
+        top: 30px;
+        left: 5px;
+    }
+
+    .home-section__headline {
+        font-size: calc(40px + .2vw);
+        line-height: 55px;
+    }
+
+    .home-section__describe {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .features-blocks {
+        flex-direction: column;
+        padding: 0 100px;
+    }
+
+    .video {
+        margin: 50px 0;
+        height: 215px;
+        background-image: url(./files/second/screen1.png);
+        background-position: center;
+    }
+
+    .play {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .features2 {
+        padding: 0 10px;
+    }
+
+    .features__h2 {
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    .features__description {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .features2-container {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .features2:nth-child(2n) {
+        flex-direction: column;
+    }
+    
+    .features2-container-text{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .features2-btns {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .features2-container-img {
+        width: 90%;
+        padding: 0;
+    }
+    
+    .features2__btn {
+        margin: 30px 0;
+        align-self: center;
+    }
+    
+    .partners-blocks {
+        flex-direction: column;
+    }
+    
+    .partner {
+        padding: 31px 40px;
+        margin: 15px;
+    }
+    
+    .display__none {
+        display: none;
+    }
+    
+    .priceing_container {
+        flex-direction: column;
+    }
 }
