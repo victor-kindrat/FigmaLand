@@ -10,16 +10,16 @@
 
 <body>
     <div class="wrap">
-        <div class="home-page">
+        <div class="home-page" id="home-page">
             <header class="header">
                 <nav class="nav">
-                   <a href="#"><img class="menu-btn" src="./files/first/bx_bx-menu-alt-right.png" alt="..."></a>
+                    <a href="#"><img class="menu-btn" src="./files/first/bx_bx-menu-alt-right.png" alt="..."></a>
                     <ul class="nav__ul">
-                        <li><a class="nav__item" href="#">Home</a></li>
-                        <li><a class="nav__item" href="#">Product</a></li>
-                        <li><a class="nav__item" href="#">Pricing</a></li>
-                        <li><a class="nav__item" href="#">About</a></li>
-                        <li><a class="nav__item nav__item_last" href="#">Contact</a></li>
+                        <li><a class="nav__item" href="#home-page">Home</a></li>
+                        <li><a class="nav__item" href="#product">Product</a></li>
+                        <li><a class="nav__item" href="#priceing">Pricing</a></li>
+                        <li><a class="nav__item" href="#about">About</a></li>
+                        <li><a class="nav__item nav__item_last" href="#contact">Contact</a></li>
                         <img src="./files/first/center.png" alt="logo" class="header__logo">
                     </ul>
                 </nav>
@@ -38,7 +38,7 @@
                 </a>
             </section>
         </div>
-        <div class="features">
+        <div class="features" id="about">
             <h2 class="features__h2">Features</h2>
             <p class="features__description">Most calendars are desinged for teams. <br> Slate is desinged for freelancers
             </p>
@@ -68,7 +68,7 @@
         <div class="features2">
             <div class="features2-container">
                 <div class="features2-container-text">
-                    <h2 class="features2-container-text__h2 ">Fastest way to organize
+                    <h2 class="features2-container-text__h2">Fastest way to organize
                     </h2>
                     <p class="features2-container-text__p">Most calendars are designed for teams. Slate is designed for freelancers
                     </p>
@@ -77,7 +77,7 @@
                 <img src="./files/third/macbook.png" alt="..." class="features2-container-img">
             </div>
         </div>
-        <div class="features2">
+        <div class="features2" id="product">
             <div class="features2-container features2_reversed">
                 <div class="features2-container-text">
                     <h3 class="features2-container-text__h3">At your fingertips</h3>
@@ -152,7 +152,7 @@
             </div>
             <a href="#" class="home-section__btn">More Testimonials</a>
         </div>
-        <div class="price">
+        <div class="price" id="priceing">
             <h2 class="price__heading">Pricing</h2>
             <p class="price__description">Most calendars are designed for teams. <br> Slate is designed for freelancers
             </p>
@@ -216,10 +216,9 @@
                 </div>
             </div>
         </div>
-        <div class="contact">
+        <div class="contact" id="conatct">
             <h2 class="contact__heading">Contact us</h2>
-            <p class="contact__description">Most calendars are designed for teams.
-                Slate is designed for freelancers</p>
+            <p class="contact__description">Most calendars are designed for teams. Slate is designed for freelancers</p>
             <div class="conatct__container">
                 <div class="contact__left">
                     <form class="conatct__form">
@@ -235,8 +234,7 @@
                         <div class="place">
                             <img class="place__icon" src="./files/seventh/tag.png">
                             <p class="place__text">
-                                6386 Spring St undefined Anchorage, <br>
-                                Georgia 12473 United States
+                                6386 Spring St undefined Anchorage, <br> Georgia 12473 United States
                             </p>
                         </div>
                         <div class="place">
@@ -274,7 +272,7 @@
                             <li><a class="author__link" href="#">Contact</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="authors__item">
                         <h4 class="author-list-heading">Tomothy</h4>
                         <ul class="author__list">
@@ -285,7 +283,7 @@
                             <li><a class="author__link" href="#">Gloria Richards</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="authors__item">
                         <h4 class="author-list-heading">Jane Black</h4>
                         <ul class="author__list">
@@ -319,4 +317,6 @@
             </div>
         </footer>
     </div>
-</body></html>
+</body>
+
+</html>
