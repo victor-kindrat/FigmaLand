@@ -36,10 +36,13 @@
     src: url("./files/Graphik-Regular.ttf");
 }
 
+.home-section__btn:hover {
+    background-color: #1869b5;
+    transition: .3s;
+}
+
 .nav .nav__ul .nav__item {
     font-family: Graphik-Regular;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 28px;
     text-align: center;
@@ -53,6 +56,16 @@
     margin-right: 1vw;
 }
 
+.nav__item a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.features2__btn:hover {
+    background-color: #1869b5;
+    transition: .3s;
+}
+
 .header__logo {
     position: relative;
     top: -7px;
@@ -63,6 +76,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.home-section .home-section__btn {
+    border: 2px solid transparent;
+}
+
+.social-media__url img:hover {
+    position: relative;
+    top: -10px;
 }
 
 .home-section {
@@ -129,7 +151,7 @@
 
 .features__description {
     font-family: Graphik-Regular;
-    font-size: calc(20px+.1vw);
+    font-size: calc(20px + .1vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -167,7 +189,7 @@
 .features-blocks-item__description {
     font-family: Graphik-Regular;
     font-size: 18px;
-    line-height: calc(18px+1vw);
+    line-height: calc(18px + 1vw);
     text-align: center;
     letter-spacing: 0.2px;
     color: #374754;
@@ -187,6 +209,11 @@
 
 .play {
     cursor: pointer;
+}
+
+.play:active {
+    position: relative;
+    bottom: -15px;
 }
 
 .features2 {
@@ -229,7 +256,7 @@
 
 .features2-container-text__p {
     font-family: Graphik-Regular;
-    font-size: calc (23px + .1vw);
+    font-size: calc(23px + .1vw);
     line-height: 40px;
     letter-spacing: 0.2px;
     color: #374754;
@@ -258,7 +285,7 @@
 
 .features2__btn {
     font-family: Graphik-Regular;
-    font-size: calc(14px+.1vw);
+    font-size: calc(14px + .1vw);
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -340,7 +367,7 @@
 
 .partners-describe {
     font-family: Graphik-Regular;
-    font-size: calc(20px+.1vw);
+    font-size: calc(20px + .1vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -371,7 +398,7 @@
 
 .testimonials__h2 {
     font-family: Graphik-Regular;
-    font-size: calc(40px+.1vw);
+    font-size: calc(40px + .1vw);
     line-height: 55px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -380,7 +407,7 @@
 
 .testimonials__par {
     font-family: Graphik-Regular;
-    font-size: calc(20px+.3vw);
+    font-size: calc(20px + .3vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -396,7 +423,7 @@
 
 .description {
     font-family: Graphik-Regular;
-    font-size: calc(10px+.4vw);
+    font-size: calc(10px + .4vw);
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #252B42;
@@ -414,7 +441,7 @@
 
 .price__heading {
     font-family: Graphik-Regular;
-    font-size: cacl(40px+.1vw);
+    font-size: calc(40px + .1vw);
     line-height: 55px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -426,7 +453,7 @@
     margin-bottom: 80px;
     padding: 10px;
     font-family: Graphik-Regular;
-    font-size: calc(20px+.1vw);
+    font-size: calc(20px + .1vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -434,6 +461,7 @@
 }
 
 .priceing_container {
+    min-height: 120vh;
     width: 70%;
     display: flex;
     align-items: center;
@@ -452,6 +480,7 @@
     border: 1px solid #DEDEDE;
     width: 30%;
     height: 607px;
+    transition: 0.5s;
 }
 
 .priceing__cost {
@@ -485,7 +514,7 @@
 
 .priceing__description {
     font-family: Graphik-Regular;
-    font-size: calc(11px+.2vw);
+    font-size: calc(11px + .2vw);
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.1px;
@@ -503,10 +532,24 @@
 
 .priceing__valute {
     font-family: Graphik-Regular;
-    font-size: calc(13px+.3vw);
+    font-size: calc(13px + .3vw);
     line-height: 28px;
     letter-spacing: 0.1px;
     color: #252B42;
+}
+
+.home-section__btn {
+    border: 1px solid #fff;
+}
+
+.price .home-section__btn {
+    transition: .2s;
+}
+
+.price .home-section__btn:hover {
+    background: #fff;
+    color: #2091F9;
+    transition: .2s;
 }
 
 .priceing__duration {
@@ -528,23 +571,18 @@
 
 .priceing_active {
     margin: 0 50px;
-    height: 693px;
+}
+
+.priceing:hover {
+    height: 630px;
     background: #2091F9;
-}
-
-.priceing_active p,
-.priceing_active li,
-.priceing_active h4,
-.priceing_active span {
+    transition: 0.5s;
     color: #fff;
-}
-
-.priceing_active .home-section__btn {
-    background-color: #fff;
-    color: #2091F9;
+    cursor: pointer
 }
 
 .contact {
+    padding: 100px 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -554,7 +592,7 @@
 
 .contact__heading {
     font-family: Graphik-Regular;
-    font-size: calc(40px+.3vw);
+    font-size: calc(40px + .3vw);
     line-height: 55px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -563,7 +601,7 @@
 
 .contact__description {
     font-family: Graphik-Regular;
-    font-size: calc(17px+.3vw);
+    font-size: calc(17px + .3vw);
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -601,7 +639,7 @@
 
 .conatct__form {
     font-family: Graphik-Regular;
-    font-size: calc(14px+.4vw);
+    font-size: calc(14px + .4vw);
     line-height: 28px;
     letter-spacing: 0.1px;
     color: #252B42;
@@ -641,16 +679,22 @@
 }
 
 .place {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+.footer__link:hover {
+    position: relative;
+    top: -5px;
 }
 
 .place__text {
     padding: 10px;
     font-family: Graphik-Regular;
-    font-size: calc(10px+.3vw);
+    font-size: calc(10px + .3vw);
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.1px;
@@ -659,6 +703,7 @@
 
 .conatct__map {
     margin: 50px 0;
+    cursor: zoom-in;
 }
 
 .social-medias {
@@ -669,8 +714,15 @@
     justify-content: center;
 }
 
+.social__item:hover {
+    position: relative;
+    top: -5px;
+    transition: 1s;
+}
+
 .social-medias a:nth-child(2n) {
     margin: 0 24px;
+    transition: 1s;
 }
 
 .conatct__container {
@@ -751,6 +803,7 @@
 }
 
 .contact-item {
+    width: 150px;
     display: flex;
     color: #fff;
     align-items: center;
@@ -767,7 +820,7 @@
 
 .contact-item__description {
     font-family: Roboto;
-    font-size: calc(10px+.1vw);
+    font-size: calc(10px + .1vw);
     line-height: 27px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
@@ -778,25 +831,47 @@
     cursor: pointer;
 }
 
+.partner {
+    filter: grayscale(100%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.partner:hover {
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.footer__link:nth-child(1) {
+    position: relative;
+    bottom: -6px;
+}
+
 @media screen and (max-width:1000px) {
     .header {
         padding: 0 20px 0 5vw;
     }
+
     .features2 {
         padding: 0 50px;
     }
+
     .header__logo {
         left: -30px;
     }
+
     .partner {
         padding: 11px 10px;
     }
+
     .partner img {
         width: 150px
     }
+
     .video {
         width: 90%;
     }
+
     .priceing {
         padding: 10px;
     }
@@ -807,12 +882,15 @@
         display: block;
         cursor: pointer;
     }
+
     .nav__item {
         display: none;
     }
+
     .social-media {
         display: none;
     }
+
     .nav {
         width: 100%;
         display: flex;
@@ -820,81 +898,101 @@
         align-items: center;
         justify-content: space-between;
     }
+
     .header__logo {
         position: absolute;
         top: 30px;
         left: 5px;
     }
+
     .home-section__headline {
         font-size: calc(40px + .2vw);
         line-height: 55px;
     }
+
     .home-section__describe {
         font-size: 20px;
         line-height: 40px;
     }
+
     .features-blocks {
         flex-direction: column;
         padding: 0 100px;
     }
+
     .video {
         margin: 50px 0;
         height: 215px;
         background-image: url(./files/second/screen1.png);
         background-position: center;
     }
+
     .play {
         height: 60px;
         width: 60px;
     }
+
     .features2 {
         padding: 0 10px;
     }
+
     .features__h2 {
         font-size: 48px;
         line-height: 55px;
     }
+
     .features__description {
         font-size: 20px;
         line-height: 40px;
     }
+
     .features2-container {
         flex-direction: column;
         padding: 0;
     }
+
     .features2:nth-child(2n) {
         flex-direction: column;
     }
+
     .features2-container-text {
         width: 100%;
         text-align: center;
         padding: 0;
     }
+
     .features2-btns {
         flex-direction: column;
         padding: 0;
     }
+
     .features2-container-img {
         width: 90%;
         padding: 0;
     }
+
     .features2__btn {
         margin: 30px 0;
         align-self: center;
     }
+
     .partners-blocks {
         flex-direction: column;
     }
+
     .partner {
         padding: 31px 40px;
         margin: 15px;
     }
+
     .display__none {
         display: none;
     }
+
     .priceing_container {
         flex-direction: column;
     }
+
     .priceing,
     .priceing_active {
         width: 100%;
@@ -903,98 +1001,136 @@
         height: 607px;
         margin: 25px;
     }
+
     .priceing .home-section__btn {
         padding: 16px 40px;
     }
+
     .conatct__container {
-        align-self: flex-start;
         position: relative;
         top: -200px;
         flex-direction: column-reverse;
     }
+    
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .conatct__map {
         display: none;
     }
+
     .places {
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-around;
     }
+
     .place {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
         margin: 10px 0;
     }
+
     .place__icon {
         margin: 10px;
     }
+
     .conatct__right {
         width: 100%;
         flex-direction: column-reverse;
         justify-content: flex-start;
     }
+
     .social-medias {
         width: 90%;
         margin: 50px 0;
     }
+
     .contact__left {
         width: 90%;
         align-items: center;
         padding: 20px;
     }
+
     .conatct__form {
         width: 80%;
     }
+
     .authors {
         flex-direction: column;
         width: 90%;
     }
+
     .footer {
         padding: 100px 0;
     }
+
     .footer__conatiner {
         flex-direction: column;
         text-align: center;
     }
+
     .authors__item {
         margin: 70px;
         align-items: center;
     }
+
     .authors ul {
         align-items: center;
         justify-content: space-around;
     }
+
     .author-list-heading {
         font-size: calc(18px + 1vw);
     }
+
     .author__list li {
         min-width: 200px;
     }
+
     .footer__social-medias {
         width: 100%;
         align-items: center;
         justify-content: space-around;
     }
+
     .contact-item__description {
         margin-left: 10px;
     }
+
     .footer__contacts {
         width: 100%;
     }
+
     .features2-container-text__h2 {
         font-size: 40px;
         line-height: 55px;
     }
+
     .features2-container-text__h3 {
         font-size: 20px;
         line-height: 28px;
     }
+
     .features2-container-text__p {
         font-size: 16px;
         line-height: 40px;
         width: 100%;
         padding: 0;
         margin: 30px 0;
+    }
+    .partner {
+        filter: grayscale(0%);
+        transition: 0.2s;
+    }
+    .priceing:hover {
+        height: 600px;
+        background: #2091F9;
+        transition: 0.5s;
+        color: #fff;
     }
 }
