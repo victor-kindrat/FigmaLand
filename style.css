@@ -10,6 +10,35 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    min-height: 105vh;
+}
+
+.home-page::before {
+    content: " ";
+    width: 50%;
+    outline: none;
+    position: absolute;
+    bottom: -15px;
+    left: -136px;
+    transform: rotate(-90deg);
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 50vw solid transparent;
+    border-left: 280px solid #fff;
+}
+
+.home-page::after {
+    content: " ";
+    width: 50%;
+    outline: none;
+    position: absolute;
+    bottom: -15px;
+    right: -136px;
+    transform: rotate(90deg);
+    border-left: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 50vw solid transparent;
+    border-right: 280px solid #fff;
 }
 
 .header {
@@ -90,7 +119,7 @@
 
 .home-section {
     width: 100%;
-    min-height: 105vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
