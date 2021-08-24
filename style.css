@@ -9,6 +9,7 @@
     background-image: url(./files/first/Rectangle%209.png);
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
 }
 
 .header {
