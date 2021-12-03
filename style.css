@@ -638,7 +638,7 @@
     color: #374754;
 }
 
-.conatct__container {
+.contact__container {
     display: flex;
     align-items: center;
 }
@@ -658,7 +658,7 @@
     padding: 50px;
 }
 
-.conatct__right {
+.contact__right {
     height: 669px;
     padding: 28px 0;
     display: flex;
@@ -667,7 +667,7 @@
     margin-left: 50px;
 }
 
-.conatct__form {
+.contact__form {
     font-family: Graphik-Regular;
     font-size: calc(14px + .4vw);
     line-height: 28px;
@@ -677,7 +677,7 @@
     flex-direction: column;
 }
 
-.conatct__input {
+.contact__input {
     margin-top: 50px;
     padding: 19px 20px;
     background: #F5F5F5;
@@ -687,7 +687,7 @@
     outline: none;
 }
 
-.conatct__input_large {
+.contact__input_large {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -731,7 +731,7 @@
     color: #374754;
 }
 
-.conatct__map {
+.contact__map {
     margin: 50px 0;
     cursor: zoom-in;
 }
@@ -755,7 +755,7 @@
     transition: 1s;
 }
 
-.conatct__container {
+.contact__container {
     margin: 50px 0 100px 0;
 }
 
@@ -1005,7 +1005,7 @@
     .priceing .home-section__btn {
         padding: 16px 40px;
     }
-    .conatct__container {
+    .contact__container {
         position: relative;
         top: -200px;
         flex-direction: column-reverse;
@@ -1015,7 +1015,7 @@
         align-items: center;
         justify-content: center;
     }
-    .conatct__map {
+    .contact__map {
         display: none;
     }
     .places {
@@ -1032,7 +1032,7 @@
     .place__icon {
         margin: 10px;
     }
-    .conatct__right {
+    .contact__right {
         width: 100%;
         flex-direction: column-reverse;
         justify-content: flex-start;
@@ -1046,7 +1046,7 @@
         align-items: center;
         padding: 20px;
     }
-    .conatct__form {
+    .contact__form {
         width: 80%;
     }
     .authors {
