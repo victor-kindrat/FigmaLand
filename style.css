@@ -75,7 +75,7 @@
 }
 
 .nav .nav__ul .nav__item {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 15px;
     line-height: 28px;
     text-align: center;
@@ -132,7 +132,7 @@
 }
 
 .home-section__headline {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-weight: 900;
     font-size: 74px;
     line-height: 84px;
@@ -142,7 +142,7 @@
 }
 
 .home-section__describe {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(20px + .1vw);
     line-height: 40px;
     text-align: center;
@@ -152,7 +152,7 @@
 }
 
 .home-section__btn {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(14px + .1vw);
     line-height: 20px;
     text-align: center;
@@ -173,7 +173,7 @@
 }
 
 .features__h2 {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(40px + .1vw);
     line-height: 55px;
     text-align: center;
@@ -183,7 +183,7 @@
 }
 
 .features__description {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(20px + .1vw);
     line-height: 40px;
     text-align: center;
@@ -208,7 +208,7 @@
 }
 
 .features-blocks-item__name {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
@@ -220,7 +220,7 @@
 }
 
 .features-blocks-item__description {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 18px;
     line-height: calc(18px + 1vw);
     text-align: center;
@@ -279,7 +279,7 @@
 }
 
 .features2-container-text__h2 {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-weight: 100;
     font-size: 48px;
     line-height: 55px;
@@ -288,7 +288,7 @@
 }
 
 .features2-container-text__p {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(23px + .1vw);
     line-height: 40px;
     letter-spacing: 0.2px;
@@ -300,7 +300,7 @@
 }
 
 .features2-container-text__h3 {
-    font-family: "Graphik-Regular";
+    font-family: 'ZCOOL XiaoWei', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -317,7 +317,7 @@
 }
 
 .features2__btn {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(14px + .1vw);
     line-height: 20px;
     text-align: center;
@@ -382,7 +382,7 @@
 }
 
 .partner p {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.1px;
@@ -390,7 +390,7 @@
 }
 
 .partners-h2 {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 48px;
     line-height: 55px;
     text-align: center;
@@ -399,7 +399,7 @@
 }
 
 .partners-describe {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(20px + .1vw);
     line-height: 40px;
     text-align: center;
@@ -430,7 +430,7 @@
 }
 
 .testimonials__h2 {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(40px + .1vw);
     line-height: 55px;
     text-align: center;
@@ -439,7 +439,7 @@
 }
 
 .testimonials__par {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(20px + .3vw);
     line-height: 40px;
     text-align: center;
@@ -455,7 +455,7 @@
 }
 
 .description {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(10px + .4vw);
     line-height: 28px;
     letter-spacing: 0.2px;
@@ -473,7 +473,7 @@
 }
 
 .price__heading {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(40px + .1vw);
     line-height: 55px;
     text-align: center;
@@ -485,7 +485,7 @@
 .price__description {
     margin-bottom: 80px;
     padding: 10px;
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(20px + .1vw);
     line-height: 40px;
     text-align: center;
@@ -538,15 +538,17 @@
 
 .priceing__plan {
     padding: 3px 0px;
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 20px;
+    font-weight: 100;
     line-height: 28px;
     letter-spacing: 0.1px;
     color: #252B42;
+    text-transform: uppercase;
 }
 
 .priceing__description {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(11px + .2vw);
     line-height: 23px;
     text-align: center;
@@ -556,7 +558,7 @@
 
 .priceing__number {
     padding: 10px 0px;
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 64px;
     line-height: 84px;
     letter-spacing: 0.2px;
@@ -564,7 +566,7 @@
 }
 
 .priceing__valute {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(13px + .3vw);
     line-height: 28px;
     letter-spacing: 0.1px;
@@ -586,7 +588,7 @@
 }
 
 .priceing__duration {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.1px;
@@ -595,7 +597,7 @@
 
 .priceing__features li {
     padding: 10px;
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.2px;
@@ -638,7 +640,7 @@
 }
 
 .contact__heading {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(40px + .3vw);
     line-height: 55px;
     text-align: center;
@@ -647,7 +649,7 @@
 }
 
 .contact__description {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(17px + .3vw);
     line-height: 40px;
     text-align: center;
@@ -685,7 +687,7 @@
 }
 
 .contact__form {
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(14px + .4vw);
     line-height: 28px;
     letter-spacing: 0.1px;
@@ -740,7 +742,7 @@
 
 .place__text {
     padding: 10px;
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: calc(10px + .3vw);
     line-height: 23px;
     text-align: center;
@@ -814,7 +816,7 @@
 
 .author__link {
     text-decoration: none;
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.2px;
@@ -824,7 +826,7 @@
 
 .author-list-heading {
     padding: 10px 0;
-    font-family: Graphik-Regular;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.1px;
