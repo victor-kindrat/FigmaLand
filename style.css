@@ -18,7 +18,7 @@
     width: 50%;
     outline: none;
     position: absolute;
-    bottom: -15px;
+    bottom: 75px;
     left: -136px;
     transform: rotate(-90deg);
     border-right: 0px solid transparent;
@@ -32,7 +32,7 @@
     width: 50%;
     outline: none;
     position: absolute;
-    bottom: -15px;
+    bottom: 75px;
     right: -136px;
     transform: rotate(90deg);
     border-left: 0px solid transparent;
@@ -48,6 +48,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 150px 0 10vw;
+    z-index: 200;
+    position: absolute;
+    top: 0;
 }
 
 .nav .nav__ul {
@@ -124,8 +127,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: -130px;
+    padding-top: 10vh;
+    z-index: 10;
 }
 
 .home-section__headline {
