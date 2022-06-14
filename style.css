@@ -611,6 +611,20 @@
     cursor: pointer
 }
 
+.priceing:hover .priceing__plan,
+.priceing:hover .priceing__description,
+.priceing:hover .priceing__number,
+.priceing:hover .priceing__valute,
+.priceing:hover .priceing__duration,
+.priceing:hover .priceing__features li {
+    color: #ffffff;
+}
+
+.priceing:hover .home-section__btn {
+    background-color: #ffffff;
+    color: #2091F9;
+}
+
 .contact {
     padding: 100px 0;
     min-height: 100vh;
